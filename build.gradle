@@ -28,5 +28,6 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     compileOnly('org.projectlombok:lombok')
-    annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+    annotationProcessor('org.springframework.boot:spring-boot-configuration-processor')
+    runtime('com.h2database:h2')
 }
